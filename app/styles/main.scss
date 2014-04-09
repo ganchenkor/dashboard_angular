@@ -1,0 +1,168 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(248,248,249);
+    font-family: Uni-Sans-Thin;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container, .navigation-wrapper {
+        max-width: 730px;
+    }
+
+    .navigation-wrapper {
+        width: 750px;        
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+.navigation-wrapper {
+    // max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+    a.navbar-brand,
+    ul.nav > li > a  {
+        color: white;        
+    }
+
+}
+
+.panel-default > .panel-heading {
+    background-color: #ffffff ;
+}
+.panel-body {
+    color: rgb(61, 133, 168);
+    font-size: 80px;
+}
+
+.navbar-fixed-top {
+    background-color: rgba(10,123,160,1);
+    border-style:solid;
+    border-bottom-color: #DE7C34;
+    border-bottom-width: 2px;
+}
+.container-fluid {
+    padding-top: 5%;
+}
+
+.widget-content {
+
+  margin-left: 15px;
+  margin-right: 15px;
+  .panel-heading {
+    color: #DE7C34;
+    border-bottom: 1px solid #e6e6e6;
+  }
+}
+
+.panel-default {
+  border-color: white;
+}
+
+.icon-custom {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+}
+
+// .icon {
+//   display: inline-block;
+//   width: 25px;
+//   height: 25px;
+// }
+// .logo {
+//     display: block;
+//   text-indent: -9999px;
+//   width: 100px;
+//   height: 82px;
+//   background: url(Art_Assets2Icons2.svg);
+//   background-size: 100px 82px;
+// }
+
+//footer:
+//Uni Sans Light 12 pt
+//headers Uni Sans Light 20pt
+//prices: Uni Sans Thin 110pt
+//Dashboard: Uni Sans Thin 23pt
+//Header top: Uni Sans Regular 13pt
+//widget stroke: 3pt, w: 496px, H: 202px

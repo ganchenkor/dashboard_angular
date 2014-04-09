@@ -1,0 +1,43 @@
+[
+	{
+		"week 1": {
+							"immersions": "60000", 
+							"VCR": "70"
+						}
+	},
+	{
+		"week 2": {
+							"immersions": "90000", 
+							"VCR": "71"
+						}
+	},
+	{
+		"week 3": {
+							"immersions": "85000", 
+							"VCR": "62"
+						}
+	},
+	{
+		"week 4": {
+							"immersions": "65000", 
+							"VCR": "55"
+						}
+	},
+	{"week 5": {
+			"immersions": "11000", 
+			"VCR": "80"
+		}},
+	{"week 6": {
+			"immersions": "65000", 
+			"VCR": "90"
+		}},
+	{"week 7": {
+			"immersions": "55000", 
+			"VCR": "38"
+		}},
+	{"week 8": {
+			"immersions": "78000", 
+			"VCR": "58"
+		}}
+
+]
