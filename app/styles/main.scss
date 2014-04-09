@@ -3,6 +3,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -70,10 +71,18 @@ body {
     margin-top: 28px;
 }
 
+@media (max-width: 992px) and (min-width: 758px) {
+  .panel-body {
+    font-size: 50px;
+  }
+}
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .container, .navigation-wrapper {
         max-width: 730px;
+    }
+    .panel-body {
+      font-size: 80px;
     }
 
     .navigation-wrapper {
@@ -112,7 +121,6 @@ body {
 }
 .panel-body {
     color: rgb(61, 133, 168);
-    font-size: 80px;
 }
 
 .navbar-fixed-top {
