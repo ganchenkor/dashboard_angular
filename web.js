@@ -3,8 +3,11 @@
  */
 var gzippo = require('gzippo');
 var express = require('express');
+var cors = require('cors');
 var app = express();
 
+app.use(cors());
+app.use(app.router);
 app.use(express.logger('dev'));
 app.use(gzippo.staticGzip("" + __dirname + "/dist"));
 
